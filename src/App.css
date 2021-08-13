@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #7070fc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  line-height: 60px;
+  padding-bottom: 50px;
+}
+
+.App-header h1,h3, a {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.App-header p {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.App-header a {
+  color: #f8a850;
+}
+
+.robot-head img{
+  border-radius: 50%;
+  max-width: 40%;
+  margin-top: 50px;
+}
+
+.main-content {
+  max-width: 70%;
+}
+
+::-moz-selection {
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.code-name {
+  color: #f8ec20;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .main-content {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .main-content {
+    max-width: 90%;
+  }
+}
