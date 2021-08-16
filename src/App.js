@@ -38,7 +38,8 @@ function App() {
         </p>
           <a href="mailto:dikyhadna@gmail.com" target="_blank" rel="noreferrer">Email</a> &nbsp; 
           <a href="https://linkedin.com/in/dikyhadna" target="_blank" rel="noreferrer">Linkedin</a> &nbsp; 
-          <a href="https://github.com/dkhd" target="_blank" rel="noreferrer">Github</a>
+          <a href="https://github.com/dkhd" target="_blank" rel="noreferrer">Github</a> &nbsp; 
+          <a href="https://www.upwork.com/freelancers/~010bc381d70641ac36" target="_blank" rel="noreferrer">UpWork</a>
         </div>
       </header>
     </div>
