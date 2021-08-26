@@ -3,11 +3,27 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      dropShadow: {
+        '3xl': '0 20px 20px rgba(0, 0, 0, 0.5)',
+      },
       fontFamily: {
         'title': ['"Source Sans Pro"', 'sans-serif'],
         'icon': ['"Material Icons"'],
       },
       colors: {
+        'spray': {
+          DEFAULT: '#84F0D0',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FFFFFF',
+          '300': '#DFFBF3',
+          '400': '#B1F6E1',
+          '500': '#84F0D0',
+          '600': '#57EABF',
+          '700': '#29E5AD',
+          '800': '#18C390',
+          '900': '#12966F'
+        },
         "viking": {
           '50': '#f8fcfd',
           '100': '#f0fafa',
