@@ -58,5 +58,6 @@
     "typescript": "^4.3.5",
     "webpack-cli": "^4.8.0"
   },
+  "main": "src/index.tsx",
   "description": "My webpack project"
 }
