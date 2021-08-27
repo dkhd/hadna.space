@@ -43,7 +43,7 @@ const Showcase = (() => {
                 <p className="text-5xl text-gray-600 font-title font-sans font-bold text-center">Uh oh..</p>
                 <p className="text-2xl text-gray-700 font-thin text-center mt-3 mb-10">Looks like we have a sponsored message</p>
             </div>
-            <div className="flex flex-col mx-auto shadow-2xl items-center bg-white ml-12 mr-12 md:w-72">
+            <div className="flex flex-col mx-auto shadow-2xl items-center bg-white w-8/12 md:w-72">
                 <div className="w-full h-full">
                     <figure className="relative w-full h-full">
                         <img className="object-cover w-full h-full" src={process.env.PUBLIC_URL + '/image/bima-square.jpg'} alt="Bima"></img>
