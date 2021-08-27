@@ -4,7 +4,7 @@ const Testimonial = (() => {
 
     return (
         <div className="flex flex-wrap justify-items-center">
-            <div className="mx-auto">
+            <div className="px-16 mx-auto">
                 <p className="text-5xl text-gray-600 font-title font-sans font-bold text-center tracking-wide">What did they say?</p>
                 <p className="text-2xl text-gray-700 font-thin text-center mt-3">From some nice clients I've work for</p>
             </div>
@@ -31,7 +31,7 @@ const Testimonial = (() => {
                 </div>
                 <div className="filter drop-shadow-2xl rounded-3xl px-10 py-20 bg-white w-full lg:w-3/12 mx-3 my-3">
                     <p className="text-center font-thin text-xl h-3/6">"Kudos to this talented and enthusiastic chatbot designer."</p>
-                    <p className="text-center font-thin text-xl mt-20">Bram Alkema - <span className="font-medium">GetBadNews.com</span></p>
+                    <p className="text-center font-thin text-xl mt-20">Bram Alkema - <span className="font-medium">GetBadNews</span></p>
                     <div className="flex flex-wrap justify-items-center mt-2">
                         <div className="mx-auto flex flex-row">
                             <a href="https://www.upwork.com/freelancers/~010bc381d70641ac36" target="_blank" rel="noreferrer" className="text-center underline font-medium text-md text-japanese-laurel-500">Read on UpWork </a>
@@ -40,9 +40,9 @@ const Testimonial = (() => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col mx-auto mt-32">
+            <div className="flex flex-col mx-auto mt-32 px-16">
                 <p className="text-5xl text-gray-600 font-title font-sans font-bold text-center">Want to be nice as well?</p>
-                <p className="text-2xl text-gray-700 font-thin text-center mt-3 mb-20">Here's the magic button for you 🥰</p>
+                <p className="text-2xl text-gray-700 font-thin text-center mt-3 mb-20">Here's the magic internet button for you 🥰</p>
                 <div className="mx-auto">
                     <a className="shadow-xl bg-yellow-500 hover:bg-yellow-400 px-8 py-5 rounded-full text-white font-title font-thin" href="https://www.buymeacoffee.com/dkhd" target="_blank" rel="noreferrer">☕ &nbsp; Buy me a coffee</a>
                 </div>

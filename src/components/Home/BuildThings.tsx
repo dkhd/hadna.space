@@ -12,10 +12,12 @@ const BuildThings = (() => {
                         it ain't much, but it's honest work
                     </span>
                 </span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-12">I love building digital products, and there are some mini-products I've built and hosted in this site that you can use for free (but you can always make a small donation if you wish to).</span>
+                <span className="text-xl text-gray-700 font-thin text-left mt-12">I love building digital products, and there are some mini-products I've built that you can use for free (but you can always make a small donation if you wish to).</span>
                 <span className="text-xl text-gray-700 font-thin text-left mt-5">My hope is that you can use what I provide to increase your happiness and make your life easier. Again, it ain't much, but it's honest work.</span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-5">You can check them at <a href="#" className="text-radical-red-500 underline hover:text-radical-red-300 font-semibold">Mini Products</a> section in this site.</span>
                 <span className="text-xl text-gray-700 font-thin text-left mt-5">Have an idea for my mini-products? Just drop me a message. As simple as that! 😁</span>
+                <div className="mx-auto mt-16">
+                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="#" target="_blank" rel="noreferrer">👏 &nbsp; Check out Mini Products</a>
+                </div>
             </div>
             <div className="xl:w-2/4">
                 <figure className=" relative w-full h-full">

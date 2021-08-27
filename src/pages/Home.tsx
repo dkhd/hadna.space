@@ -5,6 +5,8 @@ import Footer from "../components/Home/Footer"
 import Closing from "../components/Home/Closing"
 import Testimonial from "../components/Home/Testimonial"
 import BuildThings from "../components/Home/BuildThings"
+import Writings from "../components/Home/Writings"
+import Showcase from "../components/Home/Showcase"
 
 const Home = (() => {
     return (
@@ -21,6 +23,12 @@ const Home = (() => {
                 </div>
                 <div className="mt-32">
                     <BuildThings></BuildThings>
+                </div>
+                <div className="">
+                    <Writings></Writings>
+                </div>
+                <div className="mt-32">
+                    <Showcase></Showcase>
                 </div>
                 <div className="mt-20">
                     <Closing></Closing>
