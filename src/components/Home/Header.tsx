@@ -3,7 +3,7 @@ import Tippy from '@tippyjs/react'
 import Logo from './Logo'
 
 const imgSize = 64
-const emailAddress = "dikyhadna@gmail.com"
+const emailAddress = "hi@hadna.space"
 
 const Header = (() => {
     const [tippyVisible, setTippyVisible] = React.useState(false)
@@ -51,7 +51,7 @@ const Header = (() => {
                             <div role="button" className="flex content-center mt-2 hover:bg-radical-red-400 hover:text-white px-3 py-3 rounded-md" onClick={openMailApp} onMouseEnter={showTippy}><span className="material-icons-outlined font-icon">email</span> &nbsp; Open your mail app</div>
                         </div>
                     }>
-                    <div className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-semibold tracking-widest" onClick={showTippy}>📫 &nbsp; hi@hadna.space</div>
+                    <div className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-semibold tracking-widest" onClick={showTippy}>📫 &nbsp; {emailAddress}</div>
                 </Tippy>
             </div>
         </div>
