@@ -16,7 +16,7 @@ const BuildThings = (() => {
                 <span className="text-xl text-gray-700 font-thin text-left mt-5">My hope is that you can use what I provide to increase your happiness and make your life easier. Again, it ain't much, but it's honest work.</span>
                 <span className="text-xl text-gray-700 font-thin text-left mt-5">Have an idea for my mini-products? Just drop me a message. As simple as that! 😁</span>
                 <div className="mx-auto mt-16">
-                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="#" target="_blank" rel="noreferrer">👏 &nbsp; Check out Mini Products</a>
+                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="https://mini.hadna.space/" target="_blank" rel="noreferrer">👏 &nbsp; Check out Mini Products</a>
                 </div>
             </div>
             <div className="xl:w-2/4">
