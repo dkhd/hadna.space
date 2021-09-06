@@ -13,10 +13,10 @@ const Writings = (() => {
                     </span>
                 </span>
                 <span className="text-xl text-gray-700 font-thin text-left mt-12">Thanks to kind internet community for giving positive influence to me, and it's always an honor for me to return the favor.</span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-5">I write mostly about technology, and put them on my Medium page. Oh, and some of them are published in well-known Medium publication like <strong>ITNEXT</strong> and <strong>Chatbots Life</strong>!</span>
+                <span className="text-xl text-gray-700 font-thin text-left mt-5">I write mostly about technology, and put them on my personal blog, Medium and DEV page. Oh, and some of them are published in well-known Medium publication like <strong>ITNEXT</strong> and <strong>Chatbots Life</strong>!</span>
                 <span className="text-xl text-gray-700 font-thin text-left mt-5">You can always follow me to get notification about my recent writings.</span>
                 <div className="mx-auto mt-16">
-                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="https://medium.com/@dkhd" target="_blank" rel="noreferrer">👓 &nbsp; Read on Medium</a>
+                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="https://note.hadna.space" target="_blank" rel="noreferrer">👓 &nbsp; Read My Note</a>
                 </div>
             </div>
             <div className="xl:w-2/4">
