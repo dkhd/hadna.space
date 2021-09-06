@@ -35,7 +35,7 @@ const Header = (() => {
                     <a href="https://github.com/dkhd" target="_blank" className="text-gray-600 self-center font-thin -mt-3 tracking-widest hover:text-viking-500" rel="noreferrer">@dkhd</a>
                 </div>
             </div>
-            <h1 className="text-6xl sm:text-8xl xl:text-9xl text-gray-700 mt-7 font-bold md:tracking-tighter text-left md:text-center">Fullstack Developer</h1>
+            <h1 className="text-6xl sm:text-8xl xl:text-9xl text-gray-700 mt-7 font-bold md:tracking-tighter text-left md:text-center">AI/ML & Frontend Developer</h1>
             <span className="text-4xl text-gray-700 mt-7 font-thin md:tracking-widest text-left md:text-center">✔️ available for remote projects</span>
             {/* <hr className="w-full mt-16 border-gray-400"></hr> */}
             <span className="max-w-screen-md text-3xl text-gray-700 mt-16 font-thin text-left md:text-center">I build digital products and love helping agencies, business, and good people like you to bring the ideas to life 🚀</span>
