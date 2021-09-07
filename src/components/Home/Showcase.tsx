@@ -9,34 +9,34 @@ const Showcase = (() => {
                 <p className="text-2xl text-gray-700 font-thin text-center mt-3">From what I've done in the past</p>
             </div>
             <div className="flex flex-wrap w-full px-10 mt-20 justify-center">
-                <div className="filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
+                <div className="border border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
                     <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">Winterly - Beautiful Note-taking App</p>
                     <img className="w-full" src={process.env.PUBLIC_URL + '/image/winterly-screenshot.jpg'} alt="Winterly"></img>
-                    <p className="text-center font-thin text-md mt-10 px-10">Role: I own this product 🥰</p>
-                    <p className="text-center font-thin text-md mt-2 px-10">Winterly is a beautiful and minimalist note-taking app featuring cold winter theme. Winterly do not store your data, meaning that whatever you write, stays on your browser. Check it out at <a className="font-semibold text-radical-red-500 hover:text-radical-red-400" href="https://winterly.app" target="_blank" rel="noreferrer">Winterly.app</a>!</p>
+                    <p className="text-center font-thin text-xl mt-10 px-10">Role: I own this product 🥰</p>
+                    <p className="text-center font-thin text-xl mt-2 px-10">Winterly is a beautiful and minimalist note-taking app featuring cold winter theme. Winterly do not store your data, meaning that whatever you write, stays on your browser. Check it out at <a className="font-semibold text-radical-red-500 hover:text-radical-red-400" href="https://winterly.app" target="_blank" rel="noreferrer">Winterly.app</a>!</p>
                 </div>
-                <div className="filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
+                <div className="border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
                     <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">Ad Tracking Analytics</p>
                     <img className="w-full" src={process.env.PUBLIC_URL + '/image/pubwatch-screenshot.jpg'} alt="Ad Tracking"></img>
-                    <p className="text-center font-thin text-md mt-10 px-10">Role: frontend, backend, core-engine</p>
-                    <p className="text-center font-thin text-md mt-2 px-10">Made for an interal audit system for a digital advertising company based in Australia. It was nice to utilize AWS for this project.</p>
+                    <p className="text-center font-thin text-xl mt-10 px-10">Role: frontend, backend, core-engine</p>
+                    <p className="text-center font-thin text-xl mt-2 px-10">Made for an interal audit system for a digital advertising company based in Australia. It was nice to utilize AWS for this project.</p>
                 </div>
-                <div className="filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
+                <div className="border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
                     <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">Get Bad News Chatbot</p>
                     <img className="w-full" src={process.env.PUBLIC_URL + '/image/badnews-bot.png'} alt="Vanilatte"></img>
-                    <p className="text-center font-thin text-md mt-10 px-10">Role: Chatbot Developer</p>
-                    <p className="text-center font-thin text-md mt-2 px-10">It is a chatbot to simulate when all the bad news has spread massively and we have no clue whether we are reading the correct information or not. It was made for a company based in Netherland.</p>
+                    <p className="text-center font-thin text-xl mt-10 px-10">Role: Chatbot Developer</p>
+                    <p className="text-center font-thin text-xl mt-2 px-10">It is a chatbot to simulate when all the bad news has spread massively and we have no clue whether we are reading the correct information or not. It was made for a company based in Netherland.</p>
                 </div>
-                <div className="filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
+                <div className="border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
                     <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">Vanilatte - Digital Wedding Invitation</p>
                     <img className="w-full" src={process.env.PUBLIC_URL + '/image/vanilatte-screenshot.jpg'} alt="Vanilatte"></img>
-                    <p className="text-center font-thin text-md mt-10 px-10">Role: I own this product 🥰</p>
-                    <p className="text-center font-thin text-md mt-2 px-10">Another digital products of mine. Vanilatte will help you to build your personalized digital wedding invitation. It also has a nice guest management system where your guests need only to scan a unique QR code to check-in. Find more information at <a className="font-semibold text-radical-red-500 hover:text-radical-red-400" href="https://vanilatte.com" target="_blank" rel="noreferrer">Vanilatte.com</a>!</p>
+                    <p className="text-center font-thin text-xl mt-10 px-10">Role: I own this product 🥰</p>
+                    <p className="text-center font-thin text-xl mt-2 px-10">Another digital products of mine. Vanilatte will help you to build your personalized digital wedding invitation. It also has a nice guest management system where your guests need only to scan a unique QR code to check-in. Find more information at <a className="font-semibold text-radical-red-500 hover:text-radical-red-400" href="https://vanilatte.com" target="_blank" rel="noreferrer">Vanilatte.com</a>!</p>
                 </div>
-                <div className="filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
+                <div className="border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
                     <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">Your NEXT Products</p>
                     <img className="w-full" src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Vanilatte"></img>
-                    <p className="text-center font-thin text-md mt-2 px-10">A popular Chinese proverb said that, <em>“The best time to plant a tree was 20 years ago. The second best time is now.”</em> Don't let your future product ideas turned into nothing. I would be very glad to help you to bring your ideas to life.</p>
+                    <p className="text-center font-thin text-xl mt-10 px-10">A popular Chinese proverb said that, <em>“The best time to plant a tree was 20 years ago. The second best time is now.”</em> Don't let your future product ideas turned into nothing. I would be very glad to help you to bring your ideas to life.</p>
                 </div>
             </div>
             <div className="flex flex-col mx-auto mt-20 px-16">
