@@ -40,6 +40,12 @@ const Showcase = (() => {
                     <p className="text-center font-thin text-xl mt-2 px-10">Maucepat provides bulk image-processing using AI, mainly for removing image background and then put custom background and badges. This service is intended for online shop owners who have multiple product photos and do not have time to edit the photos one-by-one.</p>
                 </div>
                 <div className="border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
+                    <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">AI-based Entity Extraction (Core Engine)</p>
+                    <img className="w-full" src={process.env.PUBLIC_URL + '/image/ner-2.png'} alt="Vanilatte"></img>
+                    <p className="text-center font-thin text-xl mt-10 px-10">Role: core-engine</p>
+                    <p className="text-center font-thin text-xl mt-2 px-10">Providing a service to extract important information from an unstructured text. This service is utilizing NLP (Natural Language Processing), which is a branch of AI.</p>
+                </div>
+                <div className="border filter drop-shadow-2xl w-full md:w-3/5 md:px-10 py-10 bg-white mx-3 my-3">
                     <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">✨ Your NEXT Products ✨</p>
                     <img className="w-full" src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Vanilatte"></img>
                     <p className="text-center font-thin text-xl mt-10 px-10">A popular Chinese proverb said that, <em>“The best time to plant a tree was 20 years ago. The second best time is now.”</em> Don't let your future product ideas turned into nothing, so why don't you start now? I would be very glad to help you to bring your ideas to life.</p>
