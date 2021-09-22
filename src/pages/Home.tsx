@@ -7,6 +7,7 @@ import Testimonial from "../components/Home/Testimonial"
 import BuildThings from "../components/Home/BuildThings"
 import Writings from "../components/Home/Writings"
 import Showcase from "../components/Home/Showcase"
+import LatestPost from "../components/Home/LatestPost"
 
 const Home = (() => {
     return (
@@ -31,9 +32,12 @@ const Home = (() => {
                     <Showcase></Showcase>
                 </div>
                 <div className="bg-dkhd-purple-200">
+                    <LatestPost></LatestPost>
+                </div>
+                <div className="bg-white">
                     <Closing></Closing>
                 </div>
-                <div className="bg-dkhd-purple-200">
+                <div className="bg-white">
                     <Footer></Footer>
                 </div>
             </div>

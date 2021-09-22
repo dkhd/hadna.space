@@ -7,7 +7,7 @@ const Writings = (() => {
             <div className="flex flex-col xl:w-2/4 px-12 py-12">
                 <span className="text-xl sm:text-3xl xl:text-5xl text-gray-600 font-title font-sans font-semibold text-left">Hey, I write too!</span>
                 <span className="flex flex-row content-center ml-3 mt-3">
-                    <svg className="self-center" width="13" height="13" xmlns="http://www.w3.org/2000/svg"><g fill="#6D6E6E" fill-rule="nonzero"><path d="M8.346 4.846a.5.5 0 01.638-.057l.07.057 3.5 3.5a.5.5 0 01.057.638l-.057.07-3.5 3.5a.5.5 0 01-.765-.638l.057-.07L11.493 8.7 8.346 5.554a.5.5 0 01-.057-.638l.057-.07z"></path><path d="M1 .5a.5.5 0 01.492.41L1.5 1v4.9a2.3 2.3 0 002.143 2.295L3.8 8.2h8.4a.5.5 0 01.09.992l-.09.008H3.8A3.3 3.3 0 01.505 6.087L.5 5.9V1A.5.5 0 011 .5z"></path></g></svg>
+                    <svg className="self-center" width="13" height="13" xmlns="http://www.w3.org/2000/svg"><g fill="#6D6E6E" fillRule="nonzero"><path d="M8.346 4.846a.5.5 0 01.638-.057l.07.057 3.5 3.5a.5.5 0 01.057.638l-.057.07-3.5 3.5a.5.5 0 01-.765-.638l.057-.07L11.493 8.7 8.346 5.554a.5.5 0 01-.057-.638l.057-.07z"></path><path d="M1 .5a.5.5 0 01.492.41L1.5 1v4.9a2.3 2.3 0 002.143 2.295L3.8 8.2h8.4a.5.5 0 01.09.992l-.09.008H3.8A3.3 3.3 0 01.505 6.087L.5 5.9V1A.5.5 0 011 .5z"></path></g></svg>
                     <span className="self-center ml-3 text-gray-500">
                         a small contribution for the internet
                     </span>
