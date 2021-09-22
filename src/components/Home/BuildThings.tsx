@@ -3,7 +3,7 @@ import * as React from 'react'
 const BuildThings = (() => {
 
     return (
-        <div className="flex flex-col xl:flex-row bg-gray-100">
+        <div className="flex flex-col xl:flex-row bg-dkhd-purple-200">
             <div className="flex flex-col xl:w-2/4 px-12 py-12">
                 <span className="text-xl sm:text-3xl xl:text-5xl text-gray-600 font-title font-sans font-semibold text-left">I build things for you</span>
                 <span className="flex flex-row content-center ml-3 mt-3">
@@ -12,16 +12,16 @@ const BuildThings = (() => {
                         it ain't much, but it's honest work
                     </span>
                 </span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-12">I love building digital products, and there are some mini-products I've built that you can use for free (but you can always make a small donation if you wish to).</span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-5">My hope is that you can use what I provide to increase your happiness and make your life easier. Again, it ain't much, but it's honest work.</span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-5">Have an idea for my mini-products? Just drop me a message. As simple as that! 😁</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-12">I love building digital products, and there are some mini-products I've built that you can use for free (but you can always make a small donation if you wish to).</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">My hope is that you can use what I provide to increase your happiness and make your life easier. Again, it ain't much, but it's honest work.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">Have an idea for my mini-products? Just drop me a message. As simple as that! 😁</span>
                 <div className="mx-auto mt-16">
-                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="https://mini.hadna.space/" target="_blank" rel="noreferrer">👏 &nbsp; Check out Mini Products</a>
+                    <a className="shadow-xl bg-dkhd-purple hover:bg-dkhd-purple-400 px-8 py-5 rounded-full text-white font-title font-light" href="https://mini.hadna.space/" target="_blank" rel="noreferrer">👏 &nbsp; Check out Mini Products</a>
                 </div>
             </div>
             <div className="xl:w-2/4">
                 <figure className=" relative w-full h-full">
-                    <img className="object-cover h-full w-full" src={process.env.PUBLIC_URL + '/image/macbook.jpg'} alt="Camille Bismonte @ Unsplash"></img>
+                    <img className="object-cover h-full w-full" src={process.env.PUBLIC_URL + '/image/macbook.png'} alt="Camille Bismonte @ Unsplash"></img>
                     <figcaption className="absolute -mt-16 text-white px-4 py-4 bg-black bg-opacity-50">
                         <div>
                             <h1 className="text-sm"><a href="https://unsplash.com/photos/m_HRfLhgABo" target="_blank" rel="noreferrer">&copy; Christopher Gower — Unsplash</a></h1>

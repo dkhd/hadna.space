@@ -12,7 +12,7 @@ const Home = (() => {
     return (
         <div className="bg-white w-full h-full flex items-center flex-col">
             <div>
-                <div className="flex h-screen justify-center items-center">
+                <div className="flex h-screen justify-center items-center bg-dkhd-purple-500">
                     <Header></Header>
                 </div>
                 <div>
@@ -27,13 +27,13 @@ const Home = (() => {
                 <div className="">
                     <Writings></Writings>
                 </div>
-                <div className="mt-32">
+                <div className="bg-dkhd-purple-500">
                     <Showcase></Showcase>
                 </div>
-                <div className="mt-20">
+                <div className="bg-dkhd-purple-200">
                     <Closing></Closing>
                 </div>
-                <div>
+                <div className="bg-dkhd-purple-200">
                     <Footer></Footer>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import * as React from 'react'
 const Writings = (() => {
 
     return (
-        <div className="flex flex-col xl:flex-row-reverse bg-gray-100">
+        <div className="flex flex-col xl:flex-row-reverse bg-dkhd-purple-200">
             <div className="flex flex-col xl:w-2/4 px-12 py-12">
                 <span className="text-xl sm:text-3xl xl:text-5xl text-gray-600 font-title font-sans font-semibold text-left">Hey, I write too!</span>
                 <span className="flex flex-row content-center ml-3 mt-3">
@@ -12,16 +12,16 @@ const Writings = (() => {
                         a small contribution for the internet
                     </span>
                 </span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-12">Thanks to kind internet community for giving positive influence to me, and it's always an honor for me to return the favor.</span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-5">I write mostly about technology, and put them on my personal blog, Medium and DEV page. Oh, and some of them are published in well-known Medium publication like <strong>ITNEXT</strong> and <strong>Chatbots Life</strong>!</span>
-                <span className="text-xl text-gray-700 font-thin text-left mt-5">You can always follow me to get notification about my recent writings.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-12">Thanks to kind internet community for giving positive influence to me, and it's always an honor for me to return the favor.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">I write mostly about technology, and put them on my personal blog, Medium and DEV page. Oh, and some of them are published in well-known Medium publication like <strong>ITNEXT</strong> and <strong>Chatbots Life</strong>!</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">You can always follow me at <a href='https://note.hadna.space' target='_blank' rel='noreferrer' className="text-dkhd-purple-500 border-b-2 border-dashed border-dkhd-purple hover:text-dkhd-purple-600 font-semibold">note.hadna.space</a> to get notification about my recent writings.</span>
                 <div className="mx-auto mt-16">
-                    <a className="shadow-xl bg-radical-red-500 hover:bg-radical-red-400 px-8 py-5 rounded-full text-white font-title font-thin" href="https://note.hadna.space" target="_blank" rel="noreferrer">👓 &nbsp; Read My Note</a>
+                    <a className="shadow-xl bg-dkhd-purple hover:bg-dkhd-purple-400 px-8 py-5 rounded-full text-white font-title font-light" href="https://note.hadna.space" target="_blank" rel="noreferrer">👓 &nbsp; Read My Notes</a>
                 </div>
             </div>
             <div className="xl:w-2/4">
                 <figure className=" relative w-full h-full">
-                    <img className="object-cover h-full w-full" src={process.env.PUBLIC_URL + '/image/writings.jpg'} alt="Camille Bismonte @ Unsplash"></img>
+                    <img className="object-cover h-full w-full" src={process.env.PUBLIC_URL + '/image/writings.png'} alt="Camille Bismonte @ Unsplash"></img>
                     <figcaption className="absolute -mt-16 text-white px-4 py-4 bg-black bg-opacity-50">
                         <div>
                             <h1 className="text-sm"><a href="https://unsplash.com/photos/505eectW54k" target="_blank" rel="noreferrer">&copy; Thought Catalog — Unsplash</a></h1>

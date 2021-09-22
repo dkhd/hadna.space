@@ -11,6 +11,32 @@ module.exports = {
         'icon': ['"Material Icons"'],
       },
       colors: {
+        'baby-blue': {
+          DEFAULT: '#DEFCFE',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#FFFFFF',
+          '300': '#FFFFFF',
+          '400': '#FFFFFF',
+          '500': '#DEFCFE',
+          '600': '#ACF8FD',
+          '700': '#7BF3FB',
+          '800': '#49EFFA',
+          '900': '#18EAF8'
+        },
+        'dkhd-purple': {
+          DEFAULT: '#8682D9',
+          '50': '#FFFFFF',
+          '100': '#FFFFFF',
+          '200': '#f3f2fb',
+          '300': '#D2D0F1',
+          '400': '#ACA9E5',
+          '500': '#8682D9',
+          '600': '#605BCD',
+          '700': '#3F39BC',
+          '800': '#322D95',
+          '900': '#25216E'
+        },
         'bunker': {
           DEFAULT: '#161B22',
           '50': '#778BA7',
