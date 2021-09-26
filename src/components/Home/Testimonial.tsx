@@ -16,7 +16,6 @@ const Testimonial = (() => {
                     <div className="flex flex-wrap justify-items-center mt-10 mb-20">
                         <div className="mx-auto flex flex-row">
                             <a href="https://www.upwork.com/freelancers/~010bc381d70641ac36" target="_blank" rel="noreferrer" className="text-center border-b-2 border-dashed border-dkhd-purple  font-medium text-md text-dkhd-purple">Read on UpWork </a>
-                            {/* <svg className="mt-2 ml-2" width="10" height="10" xmlns="http://www.w3.org/2000/svg"><g stroke="#14a800" stroke-width="1.6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 9l8-8M1 1h8v8" /></g></svg> */}
                         </div>
                     </div>
                 </div>
@@ -27,7 +26,6 @@ const Testimonial = (() => {
                     <div className="flex flex-wrap justify-items-center mt-10 mb-20">
                         <div className="mx-auto flex flex-row">
                             <a href="https://www.upwork.com/freelancers/~010bc381d70641ac36" target="_blank" rel="noreferrer" className="text-center border-b-2 border-dashed border-dkhd-purple  font-medium text-md text-dkhd-purple">Read on UpWork </a>
-                            {/* <svg className="mt-2 ml-2" width="10" height="10" xmlns="http://www.w3.org/2000/svg"><g stroke="#14a800" stroke-width="1.6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 9l8-8M1 1h8v8" /></g></svg> */}
                         </div>
                     </div>
                 </div>
@@ -38,7 +36,6 @@ const Testimonial = (() => {
                     <div className="flex flex-wrap justify-items-center mt-10 mb-20">
                         <div className="mx-auto flex flex-row">
                             <a href="https://www.upwork.com/freelancers/~010bc381d70641ac36" target="_blank" rel="noreferrer" className="text-center border-b-2 border-dashed border-dkhd-purple  font-medium text-md text-dkhd-purple">Read on UpWork </a>
-                            {/* <svg className="mt-2 ml-2" width="10" height="10" xmlns="http://www.w3.org/2000/svg"><g stroke="#14a800" stroke-width="1.6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 9l8-8M1 1h8v8" /></g></svg> */}
                         </div>
                     </div>
                 </div>

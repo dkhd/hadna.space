@@ -7,7 +7,7 @@ const Skills = (() => {
             <div className="xl:w-2/4">
                 <figure className=" relative w-full h-full">
                     <img className="object-cover h-full w-full" src={process.env.PUBLIC_URL + '/image/yogyakarta.png'} alt="Camille Bismonte @ Unsplash"></img>
-                    <figcaption className="absolute -mt-16 text-white px-4 py-4 bg-black bg-opacity-50">
+                    <figcaption className="absolute -mt-16 text-white px-4 py-4 bg-dkhd-purple">
                         <div>
                             <h1 className="text-sm"><a href="https://unsplash.com/photos/vUc03gxjEY4" target="_blank" rel="noreferrer">&copy; Camille Bismonte — Unsplash</a></h1>
                         </div>
@@ -22,9 +22,10 @@ const Skills = (() => {
                         Yogyakarta is known for its <a className="text-dkhd-purple-500 border-b-2 border-dashed border-dkhd-purple hover:text-dkhd-purple-600 font-semibold" href="https://en.wikipedia.org/wiki/Special_Region_of_Yogyakarta" target="_blank" rel="noreferrer">cultural heritage</a>
                     </span>
                 </span>
-                <span className="text-xl text-gray-700 font-light text-left mt-12">With 10+ years of experience working in this industry (including years working closely with C-level people), I gained sets of skills needed for product development, from ideation, planning, execution until delivery.</span>
-                <span className="text-xl text-gray-700 font-light text-left mt-5">Since the early COVID-19 pandemic, I’ve worked 100% remotely with lots of Zoom, Google Meet, Slack messages, coffee ☕ and nice people.</span>
-                <span className="text-xl text-gray-700 font-light text-left mt-5">I mostly working on frontend and core engine of a service (most of the time, these core engines are some sorts of Artifical Intelligence or Machine Learning services), and I also have built chatbots for many nice clients.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-12">Hola 👋 My name is Nurrun M. Shiddieqy Hadna, but you can call me just Diky or Diky Hadna, for short. I'm an Indonesian-based developer, focusing on AI/ML and Frontend development.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">With 10+ years of experience working in tech industry (including 7+ years of working closely with C-level people; and 4+ years of remote working experience), I gained sets of skills needed for working remotely and product development like team communication &amp; coordination, ideation, planning, execution, and delivery.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">Since the early COVID-19 pandemic, I've decided to work 100% full-time remotely with lots of Zoom, Google Meet, Slack messages, time tracker, coffee ☕ and a lot of nice people.</span>
+                <span className="text-xl text-gray-700 font-light text-left mt-5">I mostly working on frontend and core engine of a service (most of the time, these core engines are some sorts of Artifical Intelligence or Machine Learning services), and I also have built chatbots for many nice clients. Occasionally, I also develop backend service.</span>
                 <span className="text-xl text-gray-700 font-light text-left mt-5">While I might not list them all here, but here are several things I'm familiar with: ReactJS, NextJS, VueJS, TailwindCSS, Typescript, NodeJS, ExpressJS, Python, Flask, Pandas, Tensorflow and OpenCV.</span>
                 <span className="text-xl text-gray-700 font-light text-left mt-5">Not seeing your required stacks listed? <a href="mailto:hi@hadna.space" className="text-dkhd-purple-500 border-b-2 border-dashed border-dkhd-purple hover:text-dkhd-purple-600 font-semibold">Say hi!</a> Maybe I forgot to write them down?</span>
             </div>

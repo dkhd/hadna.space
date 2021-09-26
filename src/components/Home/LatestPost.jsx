@@ -25,7 +25,7 @@ const LatestPost = () => {
         `,
       })
       .then((result) => {
-        const res = (result.data.user.publication.posts).slice(0, 5);
+        const res = result.data.user.publication.posts.slice(0, 5);
         setdata(res);
       });
   }, []);
@@ -63,6 +63,17 @@ const LatestPost = () => {
               </span>
             ))
           : null}
+        <p className="text-2xl text-gray-700 font-light text-gray-700 text-center mt-20">
+          Want to read more notes?{" "}
+          <a
+            href="https://note.hadna.space/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-dkhd-purple-500 border-b-2 border-dashed border-dkhd-purple hover:text-dkhd-purple-600 font-semibold"
+          >
+            Read them all here
+          </a>
+        </p>
       </div>
     </div>
   );

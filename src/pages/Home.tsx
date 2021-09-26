@@ -8,6 +8,7 @@ import BuildThings from "../components/Home/BuildThings"
 import Writings from "../components/Home/Writings"
 import Showcase from "../components/Home/Showcase"
 import LatestPost from "../components/Home/LatestPost"
+import OSSContribution from "../components/Home/OSSContribution"
 
 const Home = (() => {
     return (
@@ -30,6 +31,9 @@ const Home = (() => {
                 </div>
                 <div className="bg-dkhd-purple-500">
                     <Showcase></Showcase>
+                </div>
+                <div className="bg-dkhd-purple-200">
+                    <OSSContribution></OSSContribution>
                 </div>
                 <div className="bg-dkhd-purple-200">
                     <LatestPost></LatestPost>

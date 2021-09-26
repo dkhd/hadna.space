@@ -10,7 +10,7 @@ const Header = (() => {
 
     const showTippy = () => setTippyVisible(true)
     const hideTippy = () => setTippyVisible(false)
-    
+
     const copyToClipboard = (() => {
         const el = document.createElement('textarea');
         el.value = emailAddress;
@@ -30,17 +30,13 @@ const Header = (() => {
         <div className="grid justify-items-start md:justify-items-center px-12 py-12">
             <div className="flex flex-wrap xl:content-center">
                 <Logo width={imgSize} height={imgSize}></Logo>
-                {/* <div className="grid justify-items-start ml-3">
-                    <span className="text-baby-blue-400 self-center font-semibold tracking-wide">DIKY HADNA</span>
-                    <a href="https://github.com/dkhd" target="_blank" className="text-baby-blue-400 self-center font-thin -mt-3 tracking-widest hover:text-viking-500" rel="noreferrer">@dkhd</a>
-                </div> */}
             </div>
             <h1 className="max-w-screen-lg text-5xl sm:text-8xl xl:text-9xl text-baby-blue-400 mt-7 font-bold md:tracking-tighter text-left md:text-center">AI/ML & Frontend Developer</h1>
             <span className="text-4xl text-baby-blue-400 mt-7 font-light md:tracking-widest text-left md:text-center">available for remote projects</span>
             {/* <hr className="w-full mt-16 border-gray-400"></hr> */}
             <span className="max-w-screen-md text-3xl text-baby-blue-400 mt-5 sm:mt-16 font-thin text-left md:text-center">I build digital products and love helping agencies, business, and good people like you to bring the ideas to life 🚀</span>
             <div className="mx-auto mt-3 md:mt-20 py-5" onMouseEnter={showTippy} onMouseLeave={hideTippy}>
-                <Tippy 
+                <Tippy
                     placement="bottom"
                     interactive={true}
                     visible={tippyVisible}
