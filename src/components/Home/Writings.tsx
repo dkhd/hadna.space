@@ -24,17 +24,17 @@ const Writings = (() => {
               a small contribution for the internet
             </span>
           </span>
-          <span className="text-xl text-nord-nord6 font-light text-left mt-12">
+          <span className="text-xl text-nord-nord6 font-light text-left mt-12 text-justify">
             Thanks to kind internet community for giving positive influence to
             me, and it's always an honor for me to return the favor.
           </span>
-          <span className="text-xl text-nord-nord6 font-light text-left mt-5">
+          <span className="text-xl text-nord-nord6 font-light text-left mt-5 text-justify">
             I write mostly about technology, and put them on my personal blog,
             Medium and DEV page. Oh, and some of them are published in
             well-known Medium publication like <strong>ITNEXT</strong> and{" "}
             <strong>Chatbots Life</strong>!
           </span>
-          <span className="text-xl text-nord-nord6 font-light text-left mt-5">
+          <span className="text-xl text-nord-nord6 font-light text-left mt-5 text-justify">
             You can always subscribe to my blog at{" "}
             <a
               href="https://note.hadna.space"

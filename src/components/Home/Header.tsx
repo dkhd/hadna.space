@@ -32,15 +32,7 @@ const Header = (() => {
           <Logo width={imgSize} height={imgSize}></Logo>
         </div>
         <h1 className="max-w-screen-lg text-5xl sm:text-8xl xl:text-7xl text-nord-nord2 mt-7 font-semibold md:tracking-tighter text-left md:text-center">
-          Co-founder @{" "}
-          <a
-            href="https://metadev.wtf"
-            target="_blank"
-            rel="noreferrer"
-            className="text-nord-nord15 border-b-4 border-dashed border-nord-nord15 hover:border-nord-nord13 hover:text-nord-nord13 font-semibold"
-          >
-            Metadev WTF
-          </a>
+          Diky Hadna &middot; NFT Engineer
         </h1>
         <span className="text-3xl text-nord-nord3 mt-7 font-light md:tracking-widest text-left md:text-center">
           Want to build the coolest NFT in the metaverse?
@@ -48,9 +40,10 @@ const Header = (() => {
         {/* <hr className="w-full mt-16 border-gray-400"></hr> */}
         <div className="max-w-screen-md text-3xl text-nord-nord3 mt-5 sm:mt-16 font-light text-left md:text-center">
           <p className="font-quote">
-            "Diky is one of the best NFT developer I've work with! All my NFT
-            projects are going smooth with his help! From art generation, smart
-            contract, to minting website, he's able to handle them well"
+            "Diky is one of the best NFT engineer I've work with! All my NFT
+            projects are going extremely smooth with his help! From art
+            generation, smart contract, to minting website, he's able to handle
+            them well"
           </p>
           <p className="font-light mt-5 tracking-wide text-2xl">
             {"("}

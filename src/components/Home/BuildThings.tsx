@@ -24,17 +24,17 @@ const BuildThings = (() => {
               it ain't much, but it's honest work
             </span>
           </span>
-          <span className="text-xl text-nord-nord6 font-light text-left mt-12">
+          <span className="text-xl text-nord-nord6 font-light text-left mt-12 text-justify">
             I love building digital products, and there are some mini-products
             I've built that you can use for free (but you can always make a
             small donation if you wish to).
           </span>
-          <span className="text-xl text-nord-nord6 font-light text-left mt-5">
+          <span className="text-xl text-nord-nord6 font-light text-left mt-5 text-justify">
             I'm hoping that you can use what I provide to increase your
             happiness and make your life easier. Again, it ain't much, but it's
             honest work.
           </span>
-          <span className="text-xl text-nord-nord6 font-light text-left mt-5">
+          <span className="text-xl text-nord-nord6 font-light text-left mt-5 text-justify">
             Have an idea for my mini-products? Just drop me a message. As simple
             as that! 😁
           </span>

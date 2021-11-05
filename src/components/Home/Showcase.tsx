@@ -9,11 +9,11 @@ const Showcase = (() => {
             Selected Works
           </p>
           <p className="text-2xl text-nord-nord3 font-light text-center mt-3">
-            From what I've done in the past
+            From what I've done in the past 🚀
           </p>
         </div>
-        <div className="flex flex-wrap w-full px-10 mt-20 justify-center">
-          <div className="border border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
+        <div className="masonry p-5 md:p-20">
+          <div className="break-inside border border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
             <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
               Winterly — Beautiful Note-taking App
             </p>
@@ -40,7 +40,7 @@ const Showcase = (() => {
               !
             </p>
           </div>
-          <div className="border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
+          <div className="break-inside border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
             <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
               Pubwatch — Ad Tracking Analytics
             </p>
@@ -57,7 +57,7 @@ const Showcase = (() => {
               based in Australia. It was nice to utilize AWS for this project.
             </p>
           </div>
-          <div className="border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
+          <div className="break-inside border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
             <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
               Get Bad News — Chatbot
             </p>
@@ -75,7 +75,7 @@ const Showcase = (() => {
               information or not. It was made for a company based in Netherland.
             </p>
           </div>
-          <div className="border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
+          <div className="break-inside border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
             <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
               AI-based Entity Extraction (Core Engine)
             </p>
@@ -93,7 +93,7 @@ const Showcase = (() => {
               Processing), which is a branch of AI.
             </p>
           </div>
-          <div className="border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
+          <div className="break-inside border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
             <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
               Vanilatte — Digital Wedding Invitation
             </p>
@@ -121,7 +121,7 @@ const Showcase = (() => {
               !
             </p>
           </div>
-          <div className="border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
+          <div className="break-inside border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
             <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
               Maucepat — AI Image Processor
             </p>
@@ -141,9 +141,9 @@ const Showcase = (() => {
               one-by-one.
             </p>
           </div>
-          <div className="border filter drop-shadow-2xl w-full rounded-3xl md:w-2/5 md:px-10 py-10 bg-nord-nord6 mx-3 my-4">
-            <p className="text-2xl text-gray-700 font-semibold text-center mb-10 px-10">
-              ✨ Your NEXT Products ✨
+          <div className="break-inside border filter drop-shadow-2xl w-full  md:px-10 py-10 bg-nord-nord6 hover:bg-nord-nord14 mx-3 my-4">
+            <p className="text-2xl text-gray-700 font-bold text-center mb-10 px-10">
+              ✨ Your NEXT Projects ✨
             </p>
             <img
               className="w-full"
@@ -156,9 +156,12 @@ const Showcase = (() => {
                 “The best time to plant a tree was 20 years ago. The second best
                 time is now.”
               </em>{" "}
-              Don't let your future-product ideas turned into nothing, so why
-              don't you start now? I would be very glad to help you to bring
-              your ideas to life.
+              <br />
+              &nbsp;
+              <br />
+              Don't let your project ideas turned into nothing, so why don't you
+              start now? I would be very glad to help you to bring your ideas to
+              life.
             </p>
           </div>
         </div>
@@ -171,7 +174,7 @@ const Showcase = (() => {
           </p>
           <div className="mx-auto mt-20">
             <a
-              className="shadow-xl bg-nord-nord11 hover:bg-nord-nord13 hover:text-nord-nord0 px-8 py-5 rounded-full text-white font-title font-light"
+              className="shadow-xl bg-nord-nord11 hover:bg-nord-nord6 hover:text-nord-nord0 px-8 py-5 rounded-full text-white font-title font-light"
               href="https://mini.hadna.space/"
               target="_blank"
               rel="noreferrer"

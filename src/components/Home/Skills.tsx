@@ -54,16 +54,26 @@ const Skills = (() => {
               </a>
             </span>
           </span>
-          <span className="text-xl text-gray-700 font-light text-left mt-12">
+          <span className="text-xl text-gray-700 font-light text-left mt-12 text-justify">
             Hola 👋 My name is{" "}
             <span className="font-semibold">Nurrun M. Shiddieqy Hadna</span>,
             but you can call me just <span className="font-semibold">Diky</span>{" "}
             or <span className="font-semibold">Diky Hadna</span>, for short. I'm
-            an Indonesian-based software engineer. I previously focused on AI/ML
-            and Frontend development, but in 2021, I switched my path to{" "}
-            <span className="font-semibold">NFT/Blockchain development</span>.
+            an Indonesian-based software engineer who previously focused on
+            AI/ML and Frontend development, but now switched my path to{" "}
+            <span className="font-semibold">NFT/Blockchain development</span>{" "}
+            and co-founded{" "}
+            <a
+              href="https://metadev.wtf"
+              target="_blank"
+              rel="noreferrer"
+              className="text-nord-nord15 border-b-2 border-dashed border-nord-nord15 hover:text-nord-nord13 hover:border-nord-nord13 font-semibold"
+            >
+              Metadev WTF
+            </a>
+            , an NFT/Blockchain development team, along with my friends.
           </span>
-          <span className="text-xl text-gray-700 font-light text-left mt-5">
+          <span className="text-xl text-gray-700 font-light text-left mt-5 text-justify">
             With {new Date().getFullYear() - 2010} years{" "}
             <span className="italic">(and still counting)</span> of experience
             working in tech industry (including 7+ years of working closely with
@@ -72,12 +82,12 @@ const Skills = (() => {
             working remotely and product development like team communication
             &amp; coordination, ideation, planning, execution, and delivery.
           </span>
-          <span className="text-xl text-gray-700 font-light text-left mt-5">
+          <span className="text-xl text-gray-700 font-light text-left mt-5 text-justify">
             Since the early COVID-19 pandemic, I've decided to work 100%
             remotely with lots of Zoom, Google Meet, Slack messages, coffee ☕
             and literally lots of nice people.
           </span>
-          <span className="text-xl text-gray-700 font-light text-left mt-5">
+          <span className="text-xl text-gray-700 font-light text-left mt-5 text-justify">
             I now mostly working on NFT project, starting from art generation,
             smart contract, and build minting website, with previously worked on
             frontend and core engine of a service (most of the time, these core
@@ -85,19 +95,19 @@ const Skills = (() => {
             services), and I also have built chatbots for many nice clients.
             Occasionally, I also develop backend service too!
           </span>
-          <span className="text-xl text-gray-700 font-light text-left mt-5">
+          <span className="text-xl text-gray-700 font-light text-left mt-5 text-justify">
             While I might not list them all here, but here are several things
             I'm familiar with: Solidity, ReactJS, NextJS, VueJS, TailwindCSS,
             Typescript, NodeJS, ExpressJS, Python, Flask, Pandas, Tensorflow and
             OpenCV.
           </span>
-          <span className="text-xl text-gray-700 font-light text-left mt-5">
-            Not seeing your required stacks listed?{" "}
+          <span className="text-xl text-gray-700 font-light text-left mt-5 text-justify">
+            Not seeing your required stacks listed? Don't be hesitate to{" "}
             <a
               href="mailto:hi@hadna.space"
               className="text-nord-nord15 border-b-2 border-dashed border-nord-nord15 hover:text-nord-nord13 hover:border-nord-nord13 font-semibold"
             >
-              Say hi!
+              say hi!
             </a>{" "}
             Maybe I forgot to write them down?
           </span>

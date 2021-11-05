@@ -14,7 +14,7 @@ const Home = (() => {
     return (
       <div className="bg-white w-full h-full flex items-center flex-col">
         <div>
-          <div className="flex h-screen justify-center items-center bg-nord-nord6">
+          <div className="flex min-h-screen justify-center items-center bg-nord-nord6">
             <Header></Header>
           </div>
           <div>
